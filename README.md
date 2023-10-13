@@ -1,6 +1,6 @@
-![Screenshot (27)](https://github.com/MOHAMMADSHEHBAZ/weather-app/assets/121683891/c64ec76f-20f3-41c6-8e0b-a63932849133)
-![Screenshot (28)](https://github.com/MOHAMMADSHEHBAZ/weather-app/assets/121683891/267c0f4f-6d38-4078-9ef3-086c71965067)
-![Screenshot (31)](https://github.com/MOHAMMADSHEHBAZ/weather-app/assets/121683891/6782c856-9d74-44f0-9435-2a46a56c7bdb)
+![Screenshot (28)](https://github.com/MOHAMMADSHEHBAZ/weather-app/assets/121683891/34180bbb-3497-4ea7-86fa-f8a3b6f56baf)
+![Screenshot (31)](https://github.com/MOHAMMADSHEHBAZ/weather-app/assets/121683891/e09d13ae-fe29-4565-8a37-08ca13004d93)
+![Screenshot (27)](https://github.com/MOHAMMADSHEHBAZ/weather-app/assets/121683891/d1b21f8c-f59f-4c91-a88e-3e365442d22d)
 
 ### `Setup`
 npm i and npm start

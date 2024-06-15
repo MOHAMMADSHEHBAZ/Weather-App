@@ -15,6 +15,13 @@ import mist from './Weather-gif/wind.gif'
 
 export default function Weatherbox() {
 
+  var Time = new Date().toLocaleTimeString();
+  const[cTime,uTime]=useState(Time);
+  const updateTime = () =>{
+    Time = new Date().toLocaleTimeString();
+    uTime(Time);
+  }
+  setInterval(updateTime,1000);
 
   const dateG = (e) => {
     let months = [
@@ -105,7 +112,7 @@ export default function Weatherbox() {
       <div className="Weatherbox">
         <div className="mainbox">
           <div className="searchbox">
-            <input type="text" placeholder="Search" className="input" />
+            <input class="input" name="text" placeholder="Search..." type="search"/>
             <div
               className="search"
               onClick={() => {
@@ -150,6 +157,7 @@ export default function Weatherbox() {
                 <img src={wimg} alt="weather" />
               </div>
                 <div className="date">{dateG(new Date())}</div>
+                <div className="time">{cTime}</div>
               </div>
           </div>
         </div>

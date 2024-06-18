@@ -1,0 +1,21 @@
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./components/images/anders-jilden-AkUR27wtaxs-unsplash.jpg');
+    background-size: cover;
+    color: white;
+    font-size: 2em;
+    opacity: 1;
+    animation: fadeIn 1s forwards; 
+  }
+@media only screen and (max-width: 550px){
+  .welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+  }
+}
+  

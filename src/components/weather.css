@@ -91,20 +91,21 @@ input:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 60vh;
+    height: 50vh;
     /* background-color: black; */
     opacity: 90%;
   }
   .left{
     width: 60vw;
+    height: 70vh;
     /* border: 1px solid red; */
   }
   .temp{
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold;
   }
   .City{
-    font-size: 30px;
+    font-size: 35px;
     font-weight: lighter;
   }
   .Wind{
@@ -112,7 +113,7 @@ input:hover {
     font-weight: lighter;
   }
   .Humidity{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: lighter;
   }
   .date{

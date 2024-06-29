@@ -134,7 +134,7 @@ export default function Weatherbox() {
           <div className="main">
             <div className="left">
               <div className="">
-                <p className="temp">24°C</p>
+                <p className="temp">30°C</p>
               </div>
               <div className="">
                 <h3 className="City">New Delhi</h3>

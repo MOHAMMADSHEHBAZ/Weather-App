@@ -39,6 +39,7 @@
   height: 75vh;
 }
 .left {
+  /* border: 1px solid red; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,6 +49,8 @@
   color: white;
 }
 .right {
+  margin-top: 50px;
+  /* border: 1px solid red; */
   width: 20vw;
 }
 .right img{
